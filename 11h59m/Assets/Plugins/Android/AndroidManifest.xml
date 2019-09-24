@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="preferExternal" package="com.unity3d.player" android:versionName="1.0" android:versionCode="1">
+  <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
+  <!-- Google Mobile Ads Permissions -->
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+ 
+   <application android:icon="@drawable/app_icon" android:label="@string/app_name" android:debuggable="false" android:hardwareAccelerated="true">
+    <!-- meta-data tag for Google Play services -->
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    <activity android:name="com.unity3d.player.UnityPlayerProxyActivity" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+      <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true" />
+    </activity>
+    <activity android:label="@string/app_name" android:name="com.unity3d.player.UnityPlayerNativeActivity" android:screenOrientation="portrait" android:launchMode="singleTask" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale">
+       <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="false" />
+       <intent-filter>
+	        <action android:name="android.intent.action.MAIN" />
+	        <category android:name="android.intent.category.LAUNCHER" />
+	        <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true" />
+      </intent-filter>
+     </activity>
+    <activity android:name="com.unity3d.player.UnityPlayerActivity" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+     	<meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true" />
+      	<meta-data android:name="android.app.lib_name" android:value="unity" />
+    </activity>
+    <activity android:name="com.unity3d.player.VideoPlayer" android:label="@string/app_name" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+    </activity>
+    <!--ChartBoost-->
+    <!-- Google analytics campaign -->
+    <service android:name="com.google.analytics.tracking.android.CampaignTrackingService" />
+    <receiver android:name="com.google.analytics.tracking.android.CampaignTrackingReceiver" android:exported="true">
+      <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER" />
+      </intent-filter>
+    </receiver>
+    <!--LocalNotification-->
+    <service android:name="com.joonyoung.plugins.NotificationIntentService" />
+    <receiver android:name="com.joonyoung.plugins.NotificationBroadcastReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.LOCAL_NOTIFICATION" />
+        <category android:name="PixelStore" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-feature android:glEsVersion="0x00020000" />
+  <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="19" />
+  <uses-permission android:name="com.android.vending.BILLING" />
+</manifest>

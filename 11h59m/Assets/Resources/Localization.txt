@@ -1,0 +1,100 @@
+﻿KEY,English,Korean
+toastMsg,Press the back button again to exit,뒤로가기 버튼을 한번더 누르시면 앱을 종료합니다
+collection_title,Mission,미션
+collection0_desc,Goods in stock,진열상품 종류수
+collection1_desc,Sales Total,누적 매출
+collection2_desc,Top Sales,최고 매출
+collection3_desc,Top Changes,최고 거스름돈
+collection4_desc,Serving kids,초딩손님 성공
+collection5_desc,Serving beggars,거지손님 성공
+collection6_desc,Serving thiefs,도둑손님 성공
+collection7_desc,Serving couples,커플손님 성공
+collection8_desc,Serving balds,대머리손님 성공
+collection9_desc,Serving girls,소녀손님 성공
+collection10_desc,Reducing complaints,불만족 손님 줄이기
+collection11_desc,Total Receipts,영수증 처리 개수
+collection12_desc,Top Combos,최고 콤보 개수
+collection13_desc,Top Visits in Fever,피버모드 중 손님수
+collection4_cond1,Press the button to start,"버튼 클릭시, 미션 시작"
+collection4_cond2,Perfect Combos,연속 퍼펙트 성공
+collection4_cond3,Perfect Combos,연속 퍼펙트 성공
+collection4_cond4,Perfect Combos,연속 퍼펙트 성공
+collection5_cond1,Press the button to start,"버튼 클릭시, 미션 시작"
+collection5_cond2,Perfect,퍼펙트 성공
+collection5_cond3,Perfect Combos,연속 퍼펙트 성공
+collection5_cond4,Perfect,퍼펙트 성공
+collection6_cond1,Press the button to start,"버튼 클릭시, 미션 시작"
+collection6_cond2,Perfect,퍼펙트 성공
+collection6_cond3,Perfect Combos,연속 퍼펙트 성공
+collection6_cond4,Perfect,퍼펙트 성공
+collection7_cond1,Combos,연속 성공
+collection7_cond2,Perfect Combos,연속 퍼펙트 성공
+collection7_cond3,Perfect Combos,연속 퍼펙트 성공
+collection7_cond4,Perfect,퍼펙트 성공
+collection8_cond1,In an hour,제한시간 1시간
+collection8_cond2,30 minutes,제한시간 30분
+collection8_cond3,20 minutes,제한시간 20분
+collection8_cond4,15 minutes,제한시간 15분
+collection8_cond5,10 minutes,제한시간 10분
+collection8_cond6,5 minutes,제한시간 5분
+collection9_cond1,Combos,연속 성공(실패시 리셋)
+collection9_cond2,Perfect,퍼펙트 성공
+collection9_cond3,Perfect Combos,연속 퍼펙트 성공
+collection9_cond4,Perfect Combos,연속 퍼펙트 성공
+collection9_cond5,Perfect Combos,연속 퍼펙트 성공
+collection9_cond6,Perfect,퍼펙트 성공
+collection10_cond1,In the next game play,다음 1회 게임동안
+collection10_cond2,In 3 game plays,다음 3회 게임동안
+collection10_cond3,In 7 game plays,다음 7회 게임동안
+collection10_cond4,In 10 game plays,다음 10회 게임동안
+collection_objective,Goal,목표
+collection_mynumber,Done,현재
+collection_try,Start,도전
+collection_retry,Retry,재도전
+collection_ongoing,Ongoing,도전중
+collection0_unit,items,개
+collection1_unit,$,\
+collection2_unit,$,\
+collection3_unit,$,\
+collection4_unit,kids,명
+collection5_unit,beggars,명
+collection6_unit,thieves,명
+collection7_unit,couples,명
+collection8_unit,balds,명
+collection9_unit,girls,명
+collection10_unit,complaints,명
+collection11_unit,receipts,개
+collection12_unit,combos,콤보
+collection13_unit,visits,명
+collection8_condi_remaining,remaining,남은시간
+collection10_condi_remaining,remaining,남은횟수
+collection10_condi_remaining_unit,plays,회 게임
+startTutorial1,So... You are the new part timer. Welcome!,흠흠.. 자네가 새로온 신입 알바생이군.
+startTutorial2,This is your ID card on your left. Confirm your current status.,여기 자네의 사원증이네. 왼쪽 상단을 보게.
+startTutorial3,You will earn more bonus as promoted to the higher ranks.,우리 편의점에선 직급에 따라 보너스가 더 많아지니
+startTutorial4,Keep up the exact change and XP for rapid promotion,경험치를 열심히 누적하여 진급을 하면 그에 따른 보너스 점수가 더 추가되지.
+startTutorial5,Now you have a minute to work until midnight.,이런..말이 너무 많았는가보군..벌써 11시 59분이라니. 자네의 근무 시작시간이야.
+startTutorial6,Go to the counter and have fun working!,매일 11시 59분부터 12시까지 우리 편의점을 부탁하네. 자! 계산대로 가보시게.
+gameTutorial1,Lots of customers in queue and the exact change is very important.,손님들이 밀려있으니 빨리빨리 거스름돈을 넘겨줘야 한다네.
+gameTutorial2,Touch the exact change first,동전을 터치해서 알맞은 거스름돈을 올린다음,
+gameTutorial3,then touch the receipt.,영수증을 터치해서 손님께 함께 드려야하네.
+colTutorial1,You can stock more goods when you complete each mission.,미션을 한가지씩 달성할때마다 편의점 판매 물품들이 늘어난다네.
+colTutorial2,Read the price tag for the details of your mission.,가격표를 터치하여 미션 목표를 확인하고 시작하게나.
+feverTutorial1,Congrats!! You’ve done a great job. I know that you are full of stress by now.,피버타임이 처음이라 당황했는가
+feverTutorial2,So.. I give you a special bonus Fever time!,스트레스가 잔뜩 쌓인 아르바이트들을 위한 우리 편의점만의 특별 제공 시간이네
+feverTutorial3,Just touch the panel as fast as you can and get the multiple bonus!,잠시동안만이라도 피버 패널을 마구마구 두드리며 스트레스를 해소하는건 어떤가
+feverTutorial4,You don’t event need to touch the receipt. Go on!,많은 손님을 처리할수록 점수는 배수로 늘어나니
+feverTutorial5,For consecutive with perfect change.. the fever mode!, 고득점을 원한다면 쉴새없이 두드려야지.. 흠흠
+continueMsg,15 more seconds after watching video?,비디오보고 15초 더?
+pushtitle00,Congratulations,업무알람
+pushlabel00,You did a great job as a new cashier.,곧 근무 시간이 시작되어요. 픽셀 스토어로 오세요 
+pushtitle01,From Pixel Store Manager,꿀 알바는 여기
+pushlabel01,Time to come back for your shift.,가게 문이 곧 닫을려고 해요! 어서 돌아와 캐셔 업무를 완료해 주세요!
+pushtitle02,From Pixel Store Manager,꿈의 직장 픽셀스토어
+pushlabel02,Poor Bob is working extensive hours because of your tardiness.,이제 휴가 끝! 픽셀 스토어에서 근무를 시작해 주세요.
+pushtitle03,From Pixel Store Manager,꿈의 직장 픽셀스토어
+pushlabel03,Time to come back for your shift NOW.,픽셀 스토어 임금이 인상되었어요~ 지금 바로 고고고
+pushtitle04,From Pixel Store Manager,웰컴 픽셀 스토어
+pushlabel04,Have you forgotten your shift again?,당신의 꿈을 펼치는 곳~! 100만 알바와 함께하는 픽셀스토어로 돌아오세요
+pushtitle05,Get a new job!,승진 알람
+pushlabel05,Comeback immediately. Otherwise you are fired.,근무 시간을 지켜주세요! 승진이 얼마 안남았습니다.
